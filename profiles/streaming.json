@@ -1,0 +1,21 @@
+{
+  "pages": [{ "id": "streaming", "name": "STREAMING", "gridSize": 4, "gridRows": 3 }],
+  "accent": "#a855f7",
+  "wallpaper": "solid",
+  "buttons": [
+    { "id": "0-0", "page": 0, "label": "ESCENA 1", "icon": "1", "action": { "type": "hotkey", "hotkey": "Ctrl+Shift+F1" } },
+    { "id": "0-1", "page": 0, "label": "ESCENA 2", "icon": "2", "action": { "type": "hotkey", "hotkey": "Ctrl+Shift+F2" } },
+    { "id": "0-2", "page": 0, "label": "ESCENA 3", "icon": "3", "action": { "type": "hotkey", "hotkey": "Ctrl+Shift+F3" } },
+    { "id": "0-3", "page": 0, "label": "PAUSA", "icon": "☕", "action": { "type": "hotkey", "hotkey": "Ctrl+Shift+F4" } },
+
+    { "id": "0-4", "page": 0, "label": "GRABAR", "icon": "⏺", "isToggle": true, "bgColor": "#7f1d1d", "action": { "type": "hotkey", "hotkey": "Ctrl+Shift+R" } },
+    { "id": "0-5", "page": 0, "label": "EMITIR", "icon": "📡", "isToggle": true, "action": { "type": "hotkey", "hotkey": "Ctrl+Shift+S" } },
+    { "id": "0-6", "page": 0, "label": "MICRO", "icon": "🎙", "isToggle": true, "action": { "type": "hotkey", "hotkey": "Ctrl+Shift+M" } },
+    { "id": "0-7", "page": 0, "label": "SILENCIO", "icon": "🔇", "isToggle": true, "action": { "type": "mute" } },
+
+    { "id": "0-8", "page": 0, "label": "", "icon": "", "widget": "now-playing", "action": { "type": "media-play-pause" } },
+    { "id": "0-9", "page": 0, "label": "TOMAS", "icon": "", "widget": "variable", "varWidget": { "varName": "tomas", "suffix": "TOMAS" }, "action": { "type": "incr-var", "varName": "tomas", "varDelta": 1 } },
+    { "id": "0-10", "page": 0, "label": "REINICIAR", "icon": "↺", "action": { "type": "set-var", "varName": "tomas", "varValue": "0" } },
+    { "id": "0-11", "page": 0, "label": "CUENTA 5M", "icon": "⏱", "action": { "type": "countdown", "timerDelay": 300000, "timerActions": [ { "type": "notify", "notifyTitle": "Se acabo el descanso", "notifyBody": "Han pasado cinco minutos." } ] } }
+  ]
+}

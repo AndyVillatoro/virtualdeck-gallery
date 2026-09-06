@@ -1,0 +1,15 @@
+{
+  "pages": [{ "id": "rgb", "name": "RGB", "gridSize": 4, "gridRows": 2 }],
+  "accent": "#f97316",
+  "wallpaper": "solid",
+  "buttons": [
+    { "id": "0-0", "page": 0, "label": "APAGAR", "icon": "○", "action": { "type": "rgb-preset", "rgbPresetId": "off" } },
+    { "id": "0-1", "page": 0, "label": "JUEGO", "icon": "🎮", "action": { "type": "rgb-preset", "rgbPresetId": "gaming" } },
+    { "id": "0-2", "page": 0, "label": "CINE", "icon": "🎬", "action": { "type": "rgb-preset", "rgbPresetId": "cinema" } },
+    { "id": "0-3", "page": 0, "label": "TRABAJO", "icon": "💼", "action": { "type": "rgb-preset", "rgbPresetId": "work" } },
+    { "id": "0-4", "page": 0, "label": "ARCOIRIS", "icon": "🌈", "action": { "type": "rgb-preset", "rgbPresetId": "rainbow" } },
+    { "id": "0-5", "page": 0, "label": "NOCHE", "icon": "🌙", "action": { "type": "rgb-preset", "rgbPresetId": "night-blue" } },
+    { "id": "0-6", "page": 0, "label": "ALERTA", "icon": "🚨", "action": { "type": "rgb-preset", "rgbPresetId": "alert-red" } },
+    { "id": "0-7", "page": 0, "label": "ROJO FIJO", "icon": "🔴", "action": { "type": "rgb-color", "rgbColor": "#ff0000" } }
+  ]
+}

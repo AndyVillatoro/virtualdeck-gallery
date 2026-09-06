@@ -1,0 +1,21 @@
+{
+  "pages": [{ "id": "trabajo", "name": "TRABAJO", "gridSize": 4, "gridRows": 3 }],
+  "accent": "#22c55e",
+  "wallpaper": "solid",
+  "buttons": [
+    { "id": "0-0", "page": 0, "label": "", "icon": "", "widget": "clock", "action": { "type": "none" } },
+    { "id": "0-1", "page": 0, "label": "POMODORO", "icon": "🍅", "action": { "type": "countdown", "timerDelay": 1500000, "timerActions": [ { "type": "notify", "notifyTitle": "Pomodoro terminado", "notifyBody": "Veinticinco minutos. Levantese un momento." }, { "type": "tts", "ttsText": "Pomodoro terminado" } ] } },
+    { "id": "0-2", "page": 0, "label": "DESCANSO", "icon": "☕", "action": { "type": "countdown", "timerDelay": 300000, "timerActions": [ { "type": "notify", "notifyTitle": "Se acabo el descanso", "notifyBody": "Cinco minutos." } ] } },
+    { "id": "0-3", "page": 0, "label": "NO MOLESTAR", "icon": "🔕", "isToggle": true, "action": { "type": "mute" } },
+
+    { "id": "0-4", "page": 0, "label": "IZQUIERDA", "icon": "◧", "action": { "type": "window-snap", "snapPosition": "left-half" } },
+    { "id": "0-5", "page": 0, "label": "DERECHA", "icon": "◨", "action": { "type": "window-snap", "snapPosition": "right-half" } },
+    { "id": "0-6", "page": 0, "label": "MAXIMIZAR", "icon": "⛶", "action": { "type": "window-snap", "snapPosition": "maximize" } },
+    { "id": "0-7", "page": 0, "label": "RESTAURAR", "icon": "❐", "action": { "type": "window-snap", "snapPosition": "restore" } },
+
+    { "id": "0-8", "page": 0, "label": "CORREO", "icon": "✉", "action": { "type": "web", "url": "https://mail.google.com" } },
+    { "id": "0-9", "page": 0, "label": "CALENDARIO", "icon": "📅", "action": { "type": "web", "url": "https://calendar.google.com" } },
+    { "id": "0-10", "page": 0, "label": "CAPTURAR", "icon": "✂", "action": { "type": "region-capture" } },
+    { "id": "0-11", "page": 0, "label": "GRACIAS", "icon": "⌨", "action": { "type": "type-text", "typeText": "Gracias, lo reviso y te digo algo." } }
+  ]
+}

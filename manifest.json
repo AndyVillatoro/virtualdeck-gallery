@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "profiles": [
+    {
+      "id": "esencial",
+      "label": "Esencial",
+      "author": "@AndyVillatoro",
+      "description": "Dieciseis botones que funcionan en cualquier equipo, sin instalar nada: reloj, clima, lo que suena, los cuatro controles de musica, volumen y brillo de a poco, y colocar ventanas. No ejecuta ningun script ni abre ningun programa.",
+      "url": "https://raw.githubusercontent.com/AndyVillatoro/virtualdeck-gallery/main/profiles/esencial.json",
+      "tags": ["basico", "sin-dependencias"]
+    },
+    {
+      "id": "streaming",
+      "label": "Streaming",
+      "author": "@AndyVillatoro",
+      "description": "Doce botones para emitir en directo. Manda atajos de teclado (Ctrl+Shift+F1..F4 para escenas, Ctrl+Shift+R grabar, Ctrl+Shift+S emitir, Ctrl+Shift+M micro): hay que asignarlos primero en OBS, en Ajustes -> Atajos. Incluye un contador de tomas y un descanso de cinco minutos.",
+      "url": "https://raw.githubusercontent.com/AndyVillatoro/virtualdeck-gallery/main/profiles/streaming.json",
+      "tags": ["streaming", "obs", "requiere-configurar"]
+    },
+    {
+      "id": "trabajo",
+      "label": "Trabajo",
+      "author": "@AndyVillatoro",
+      "description": "Doce botones para la jornada: pomodoro de 25 minutos y descanso de 5 con aviso, colocar ventanas, correo y calendario en el navegador, recorte de pantalla y una frase que se escribe sola. Sin scripts.",
+      "url": "https://raw.githubusercontent.com/AndyVillatoro/virtualdeck-gallery/main/profiles/trabajo.json",
+      "tags": ["productividad", "sin-dependencias"]
+    },
+    {
+      "id": "rgb",
+      "label": "RGB",
+      "author": "@AndyVillatoro",
+      "description": "Ocho botones con los presets de iluminacion. Requiere OpenRGB instalado y con el servidor SDK encendido; sin el, los botones avisan del fallo.",
+      "url": "https://raw.githubusercontent.com/AndyVillatoro/virtualdeck-gallery/main/profiles/rgb.json",
+      "tags": ["rgb", "requiere-openrgb"]
+    }
+  ]
+}
